@@ -16,11 +16,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var chooseGameView: UIView!
     @IBOutlet weak var displayturnLabel: UILabel!
     
-    var activePlayer = 1 //initial player is player x
-    var gameState = [0,0,0,0,0,0,0,0,0] //initial game board is blank
+    var activePlayer = 1 //player 1 = x, player 2 = o (initially x)
+    var gameState = [0,0,0,
+                     0,0,0,
+                     0,0,0] //initial game board is blank
     let winningBoards = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
-    var gameIsActive = true
-    var gameDesign = Int()
+                        //indices of three markers in a column, row, or diagnol
+    var gameIsActive = true //true while game is playing, false when player wins or draws
+    //Game Design options: Classic(0), Rick and Morty(1), Bob's burgers(2)
+    var gameDesign = Int() //Integer value that is set when a user plays a design
     
     override func viewDidLoad() {
         super.viewDidLoad()
