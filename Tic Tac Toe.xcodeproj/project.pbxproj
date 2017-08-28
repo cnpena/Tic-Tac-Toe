@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		C8390CB21F4F6F3E007DBBB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390CB11F4F6F3E007DBBB6 /* AppDelegate.swift */; };
-		C8390CB41F4F6F3E007DBBB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390CB31F4F6F3E007DBBB6 /* ViewController.swift */; };
+		C8390CB41F4F6F3E007DBBB6 /* gameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390CB31F4F6F3E007DBBB6 /* gameVC.swift */; };
 		C8390CB71F4F6F3E007DBBB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8390CB51F4F6F3E007DBBB6 /* Main.storyboard */; };
 		C8390CB91F4F6F3E007DBBB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8390CB81F4F6F3E007DBBB6 /* Assets.xcassets */; };
 		C8390CBC1F4F6F3E007DBBB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8390CBA1F4F6F3E007DBBB6 /* LaunchScreen.storyboard */; };
 		C8390CC71F4F6F3E007DBBB6 /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390CC61F4F6F3E007DBBB6 /* Tic_Tac_ToeTests.swift */; };
 		C8390CD21F4F6F3E007DBBB6 /* Tic_Tac_ToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8390CD11F4F6F3E007DBBB6 /* Tic_Tac_ToeUITests.swift */; };
+		C86CDAD41F53738A00B23DD7 /* chooseIconVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CDAD31F53738A00B23DD7 /* chooseIconVC.swift */; };
+		C86CDAD61F53742400B23DD7 /* iconCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CDAD51F53742400B23DD7 /* iconCell.swift */; };
+		C86CDAD81F537F0E00B23DD7 /* chooseGameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86CDAD71F537F0E00B23DD7 /* chooseGameType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		C8390CAE1F4F6F3E007DBBB6 /* Tic Tac Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic Tac Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8390CB11F4F6F3E007DBBB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8390CB31F4F6F3E007DBBB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C8390CB31F4F6F3E007DBBB6 /* gameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gameVC.swift; sourceTree = "<group>"; };
 		C8390CB61F4F6F3E007DBBB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8390CB81F4F6F3E007DBBB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8390CBB1F4F6F3E007DBBB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,9 @@
 		C8390CCD1F4F6F3E007DBBB6 /* Tic Tac ToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8390CD11F4F6F3E007DBBB6 /* Tic_Tac_ToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeUITests.swift; sourceTree = "<group>"; };
 		C8390CD31F4F6F3E007DBBB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86CDAD31F53738A00B23DD7 /* chooseIconVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = chooseIconVC.swift; path = ../chooseIconVC.swift; sourceTree = "<group>"; };
+		C86CDAD51F53742400B23DD7 /* iconCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iconCell.swift; sourceTree = "<group>"; };
+		C86CDAD71F537F0E00B23DD7 /* chooseGameType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chooseGameType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				C8390CB11F4F6F3E007DBBB6 /* AppDelegate.swift */,
-				C8390CB31F4F6F3E007DBBB6 /* ViewController.swift */,
+				C86CDAD71F537F0E00B23DD7 /* chooseGameType.swift */,
+				C86CDAD31F53738A00B23DD7 /* chooseIconVC.swift */,
+				C8390CB31F4F6F3E007DBBB6 /* gameVC.swift */,
+				C86CDAD51F53742400B23DD7 /* iconCell.swift */,
 				C8390CB51F4F6F3E007DBBB6 /* Main.storyboard */,
 				C8390CB81F4F6F3E007DBBB6 /* Assets.xcassets */,
 				C8390CBA1F4F6F3E007DBBB6 /* LaunchScreen.storyboard */,
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8390CB41F4F6F3E007DBBB6 /* ViewController.swift in Sources */,
+				C86CDAD41F53738A00B23DD7 /* chooseIconVC.swift in Sources */,
+				C8390CB41F4F6F3E007DBBB6 /* gameVC.swift in Sources */,
+				C86CDAD61F53742400B23DD7 /* iconCell.swift in Sources */,
+				C86CDAD81F537F0E00B23DD7 /* chooseGameType.swift in Sources */,
 				C8390CB21F4F6F3E007DBBB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +519,7 @@
 				C8390CD81F4F6F3E007DBBB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8390CD91F4F6F3E007DBBB6 /* Build configuration list for PBXNativeTarget "Tic Tac ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				C8390CDB1F4F6F3E007DBBB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C8390CDC1F4F6F3E007DBBB6 /* Build configuration list for PBXNativeTarget "Tic Tac ToeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				C8390CDE1F4F6F3E007DBBB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
